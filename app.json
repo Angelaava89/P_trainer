@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "p_trainer",
+    "slug": "p_trainer",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/thomas-classic-icon3.png",
+    "scheme": "ptrainer",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "icon": "./assets/expo.icon"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#080a0d",
+        "foregroundImage": "./assets/images/thomas-classic-icon3.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.anonymous.p_trainer"
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/thomas-classic-icon3.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#080a0d",
+          "image": "./assets/images/thomas-classic-icon3.png",
+          "imageWidth": 200
+        }
+      ],
+      "expo-font",
+      "expo-video"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
